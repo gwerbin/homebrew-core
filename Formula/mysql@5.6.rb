@@ -31,7 +31,7 @@ class MysqlAT56 < Formula
   depends_on "openssl"
 
   def datadir
-    var/"mysql"
+    var/"mysql@5.6"
   end
 
   def install
